@@ -42,8 +42,6 @@ Then('Clickeo en el botón', () => {
   cy.get('.oxd-button--secondary').should('be.visible').click()
   cy.wait(1500)
 });
-
-
 And('Consultar empleado creado', () => {
   cy.get(':nth-child(2) > .oxd-main-menu-item').should('be.visible').click()
 })
