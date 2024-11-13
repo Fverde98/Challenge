@@ -45,6 +45,7 @@ Then('Clickeo en el botón', () => {
 And('Consultar empleado creado', () => {
   cy.get(':nth-child(2) > .oxd-main-menu-item').should('be.visible').click()
 })
+
 And('Ingreses el id del empleado {string}', (id) => {
   cy.get(':nth-child(2) > .oxd-input').should('be.visible').type(id)
 });
