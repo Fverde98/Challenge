@@ -8,4 +8,4 @@ Instalar cypress-cucumber
 4. para el uso de proyecto en su terminal ejecute el comando
 git clone https://github.com/Fverde98/Challenge.git
 5. Instalar el playwright
-npm init playwright@latest
+npm init playwright@latest 
