@@ -23,7 +23,7 @@ When('ingresar el username {string}', (username) => {
 
 
 And('Estoy en la página de lista de empleados', () => {
-  cy.get(':nth-child(2) > .oxd-main-menu-item').click()
+  cy.get(':nth-child(2) > .oxd-main-menu-item').should('be.visible').click()
 })
 When('iClick al boton de agregar', () => {
   cy.get('.orangehrm-header-container > .oxd-button').should('be.visible').click()
