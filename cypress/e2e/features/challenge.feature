@@ -15,3 +15,7 @@ Background: (Repeats on all scenarios)
     And Ingreso el segundo nombre "luis"
     And Ingreso el apellido "verde"
     Then Clickeo en el botón 
+ Scenario: Buscar empleado
+ And Consultar empleado creado
+ When Ingreses el id del empleado '0422'
+ Then Clickeo en el botón buscar
