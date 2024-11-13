@@ -18,5 +18,5 @@ Background: (Repeats on all scenarios)
 
  Scenario: Buscar empleado
  And Consultar empleado creado
- When Ingreses el id del empleado '0423'
+ When Ingreses el id del empleado '0422'
  Then Clickeo en el botón buscar
