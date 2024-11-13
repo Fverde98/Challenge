@@ -28,6 +28,7 @@ And('Estoy en la página de lista de empleados', () => {
 When('iClick al boton de agregar', () => {
   cy.get('.orangehrm-header-container > .oxd-button').should('be.visible').click()
 });
+
 And('Ingreso el primer nombre {string}', (name) => {
   cy.get('.--name-grouped-field > :nth-child(1) > :nth-child(2) > .oxd-input').should('be.visible').type(name)
 });
