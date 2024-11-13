@@ -3,12 +3,10 @@ Given('Validar username and password', function() {
   // Implementar lógica para validar username y password
   console.log("Validando username y password");
 });
-
 const url = 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
 Given('Abrir la pagina OrangeHRM', () => {
   cy.visit(url)
 })
-
 When('ingresar el username {string}', (username) => {
     cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').should('be.visible').type(username); 
   });
