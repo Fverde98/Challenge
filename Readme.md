@@ -1,4 +1,4 @@
-# ChallengeQA
+# Challenge
 La tecnica que utilice fue el Use Case Testing para poder identificar como el usuario interactua con la plataforma
 y asi poder redactar los CP para disenãr cada de estos escenarios 
 <!-- Descripcion - Test Step - Test Data - Expected Result/ Estado -->
@@ -87,3 +87,4 @@ Estado |
 Conforme
 Nota adicional -> Se pueden crear muchos mas escenario pero no quise extenderme agregue lo mas puntual
 # Challenge
+
